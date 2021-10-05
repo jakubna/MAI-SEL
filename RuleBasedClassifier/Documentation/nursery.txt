@@ -1,0 +1,1582 @@
+Name of dataset: nursery
+Number of training instances: 10367
+Number of test instances: 2592
+R1: IF recommended = not_recom THEN not_recom
+Coverage: 3471 instances 33.48% of all instances
+Precision: 100.00%
+R2: IF usual = pretentious AND proper = less_proper AND recommended = priority THEN priority
+Coverage: 219 instances 2.11% of all instances
+Precision: 100.00%
+R3: IF usual = pretentious AND proper = proper AND recommended = priority THEN priority
+Coverage: 232 instances 2.24% of all instances
+Precision: 100.00%
+R4: IF usual = usual AND proper = improper AND recommended = priority THEN priority
+Coverage: 219 instances 2.11% of all instances
+Precision: 100.00%
+R5: IF usual = usual AND proper = less_proper AND recommended = priority THEN priority
+Coverage: 225 instances 2.17% of all instances
+Precision: 100.00%
+R6: IF usual = usual AND proper = proper AND recommended = priority THEN priority
+Coverage: 243 instances 2.34% of all instances
+Precision: 100.00%
+R7: IF proper = very_crit AND complete = completed AND recommended = priority THEN spec_prior
+Coverage: 185 instances 1.78% of all instances
+Precision: 100.00%
+R8: IF proper = very_crit AND complete = foster AND recommended = priority THEN spec_prior
+Coverage: 170 instances 1.64% of all instances
+Precision: 100.00%
+R9: IF proper = very_crit AND complete = incomplete AND recommended = priority THEN spec_prior
+Coverage: 171 instances 1.65% of all instances
+Precision: 100.00%
+R10: IF proper = very_crit AND 1 = 2 AND recommended = priority THEN spec_prior
+Coverage: 44 instances 0.42% of all instances
+Precision: 100.00%
+R11: IF proper = very_crit AND 1 = 3 AND recommended = priority THEN spec_prior
+Coverage: 46 instances 0.44% of all instances
+Precision: 100.00%
+R12: IF proper = very_crit AND 1 = more AND recommended = priority THEN spec_prior
+Coverage: 48 instances 0.46% of all instances
+Precision: 100.00%
+R13: IF proper = very_crit AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 18 instances 0.17% of all instances
+Precision: 100.00%
+R14: IF proper = very_crit AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R15: IF proper = very_crit AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R16: IF usual = great_pret AND proper = critical AND complete = completed AND recommended = priority THEN spec_prior
+Coverage: 55 instances 0.53% of all instances
+Precision: 100.00%
+R17: IF usual = great_pret AND proper = critical AND complete = foster AND recommended = priority THEN spec_prior
+Coverage: 54 instances 0.52% of all instances
+Precision: 100.00%
+R18: IF usual = great_pret AND proper = critical AND complete = incomplete AND recommended = priority THEN spec_prior
+Coverage: 58 instances 0.56% of all instances
+Precision: 100.00%
+R19: IF usual = great_pret AND proper = improper AND complete = completed AND recommended = priority THEN spec_prior
+Coverage: 62 instances 0.60% of all instances
+Precision: 100.00%
+R20: IF usual = great_pret AND proper = improper AND complete = foster AND recommended = priority THEN spec_prior
+Coverage: 56 instances 0.54% of all instances
+Precision: 100.00%
+R21: IF usual = great_pret AND proper = improper AND complete = incomplete AND recommended = priority THEN spec_prior
+Coverage: 60 instances 0.58% of all instances
+Precision: 100.00%
+R22: IF usual = pretentious AND proper = critical AND complete = completed AND recommended = priority THEN spec_prior
+Coverage: 55 instances 0.53% of all instances
+Precision: 100.00%
+R23: IF usual = pretentious AND proper = critical AND complete = foster AND recommended = priority THEN spec_prior
+Coverage: 59 instances 0.57% of all instances
+Precision: 100.00%
+R24: IF usual = pretentious AND proper = critical AND complete = incomplete AND recommended = priority THEN spec_prior
+Coverage: 62 instances 0.60% of all instances
+Precision: 100.00%
+R25: IF usual = great_pret AND proper = critical AND 1 = 2 AND recommended = priority THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R26: IF usual = great_pret AND proper = critical AND 1 = 3 AND recommended = priority THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R27: IF usual = great_pret AND proper = critical AND 1 = more AND recommended = priority THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R28: IF usual = great_pret AND proper = improper AND 1 = 2 AND recommended = priority THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R29: IF usual = great_pret AND proper = improper AND 1 = 3 AND recommended = priority THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R30: IF usual = great_pret AND proper = improper AND 1 = more AND recommended = priority THEN spec_prior
+Coverage: 15 instances 0.14% of all instances
+Precision: 100.00%
+R31: IF usual = pretentious AND proper = critical AND 1 = 2 AND recommended = priority THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R32: IF usual = pretentious AND proper = critical AND 1 = 3 AND recommended = priority THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R33: IF usual = pretentious AND proper = critical AND 1 = more AND recommended = priority THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R34: IF usual = great_pret AND proper = critical AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R35: IF usual = great_pret AND proper = critical AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R36: IF usual = great_pret AND proper = improper AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R37: IF usual = great_pret AND proper = improper AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R38: IF usual = pretentious AND proper = critical AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R39: IF usual = pretentious AND proper = critical AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R40: IF usual = great_pret AND proper = critical AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R41: IF usual = great_pret AND proper = improper AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R42: IF usual = pretentious AND proper = critical AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R43: IF usual = great_pret AND proper = less_proper AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 80 instances 0.77% of all instances
+Precision: 100.00%
+R44: IF usual = great_pret AND proper = less_proper AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 84 instances 0.81% of all instances
+Precision: 100.00%
+R45: IF usual = great_pret AND proper = proper AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 79 instances 0.76% of all instances
+Precision: 100.00%
+R46: IF usual = great_pret AND proper = proper AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 85 instances 0.82% of all instances
+Precision: 100.00%
+R47: IF usual = pretentious AND proper = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 74 instances 0.71% of all instances
+Precision: 100.00%
+R48: IF usual = pretentious AND proper = improper AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 81 instances 0.78% of all instances
+Precision: 100.00%
+R49: IF usual = pretentious AND proper = improper AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 76 instances 0.73% of all instances
+Precision: 100.00%
+R50: IF usual = pretentious AND proper = less_proper AND nonprob = problematic AND recommended = recommended THEN priority
+Coverage: 84 instances 0.81% of all instances
+Precision: 100.00%
+R51: IF usual = pretentious AND proper = proper AND nonprob = problematic AND recommended = recommended THEN priority
+Coverage: 75 instances 0.72% of all instances
+Precision: 100.00%
+R52: IF usual = usual AND proper = critical AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 72 instances 0.69% of all instances
+Precision: 100.00%
+R53: IF usual = usual AND proper = critical AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 82 instances 0.79% of all instances
+Precision: 100.00%
+R54: IF usual = usual AND proper = improper AND nonprob = problematic AND recommended = recommended THEN priority
+Coverage: 77 instances 0.74% of all instances
+Precision: 100.00%
+R55: IF usual = usual AND proper = less_proper AND nonprob = problematic AND recommended = recommended THEN priority
+Coverage: 77 instances 0.74% of all instances
+Precision: 100.00%
+R56: IF usual = usual AND proper = proper AND nonprob = problematic AND recommended = recommended THEN priority
+Coverage: 78 instances 0.75% of all instances
+Precision: 100.00%
+R57: IF usual = usual AND proper = very_crit AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 79 instances 0.76% of all instances
+Precision: 100.00%
+R58: IF usual = great_pret AND complete = completed AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 34 instances 0.33% of all instances
+Precision: 100.00%
+R59: IF usual = great_pret AND complete = foster AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 36 instances 0.35% of all instances
+Precision: 100.00%
+R60: IF usual = great_pret AND complete = foster AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 39 instances 0.38% of all instances
+Precision: 100.00%
+R61: IF usual = great_pret AND complete = incomplete AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 39 instances 0.38% of all instances
+Precision: 100.00%
+R62: IF usual = great_pret AND complete = foster AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R63: IF usual = great_pret AND 1 = 2 AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R64: IF usual = great_pret AND 1 = 3 AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R65: IF usual = great_pret AND 1 = 3 AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 28 instances 0.27% of all instances
+Precision: 100.00%
+R66: IF usual = great_pret AND 1 = more AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R67: IF usual = great_pret AND 1 = more AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 31 instances 0.30% of all instances
+Precision: 100.00%
+R68: IF usual = great_pret AND 1 = 3 AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 17 instances 0.16% of all instances
+Precision: 100.00%
+R69: IF usual = great_pret AND 1 = more AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 16 instances 0.15% of all instances
+Precision: 100.00%
+R70: IF proper = less_proper AND complete = complete AND 1 = 1 AND recommended = priority THEN priority
+Coverage: 16 instances 0.15% of all instances
+Precision: 100.00%
+R71: IF proper = proper AND complete = complete AND 1 = 1 AND recommended = priority THEN priority
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R72: IF proper = critical AND complete = completed AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 18 instances 0.17% of all instances
+Precision: 100.00%
+R73: IF proper = critical AND complete = foster AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 15 instances 0.14% of all instances
+Precision: 100.00%
+R74: IF proper = critical AND complete = foster AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 18 instances 0.17% of all instances
+Precision: 100.00%
+R75: IF proper = critical AND complete = incomplete AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 23 instances 0.22% of all instances
+Precision: 100.00%
+R76: IF proper = very_crit AND complete = completed AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 47 instances 0.45% of all instances
+Precision: 100.00%
+R77: IF proper = very_crit AND complete = foster AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 51 instances 0.49% of all instances
+Precision: 100.00%
+R78: IF proper = very_crit AND complete = foster AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 50 instances 0.48% of all instances
+Precision: 100.00%
+R79: IF proper = very_crit AND complete = incomplete AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 49 instances 0.47% of all instances
+Precision: 100.00%
+R80: IF proper = critical AND complete = foster AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R81: IF proper = very_crit AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 25 instances 0.24% of all instances
+Precision: 100.00%
+R82: IF proper = very_crit AND complete = completed AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 26 instances 0.25% of all instances
+Precision: 100.00%
+R83: IF proper = very_crit AND complete = foster AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R84: IF proper = very_crit AND complete = incomplete AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 23 instances 0.22% of all instances
+Precision: 100.00%
+R85: IF proper = critical AND 1 = 2 AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R86: IF proper = critical AND 1 = 3 AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R87: IF proper = critical AND 1 = 3 AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 17 instances 0.16% of all instances
+Precision: 100.00%
+R88: IF proper = critical AND 1 = more AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R89: IF proper = critical AND 1 = more AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R90: IF proper = very_crit AND 1 = 2 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R91: IF proper = very_crit AND 1 = 3 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R92: IF proper = very_crit AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 32 instances 0.31% of all instances
+Precision: 100.00%
+R93: IF proper = very_crit AND 1 = more AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R94: IF proper = very_crit AND 1 = more AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 30 instances 0.29% of all instances
+Precision: 100.00%
+R95: IF proper = critical AND 1 = 3 AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R96: IF proper = critical AND 1 = more AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R97: IF proper = very_crit AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R98: IF proper = very_crit AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 16 instances 0.15% of all instances
+Precision: 100.00%
+R99: IF proper = very_crit AND 1 = 2 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R100: IF proper = very_crit AND 1 = 3 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R101: IF proper = very_crit AND 1 = more AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R102: IF proper = less_proper AND convenient = convenient AND convenient.1 = convenient AND recommended = priority THEN priority
+Coverage: 39 instances 0.38% of all instances
+Precision: 100.00%
+R103: IF proper = proper AND convenient = convenient AND convenient.1 = convenient AND recommended = priority THEN priority
+Coverage: 33 instances 0.32% of all instances
+Precision: 100.00%
+R104: IF proper = very_crit AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R105: IF proper = very_crit AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R106: IF proper = very_crit AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R107: IF usual = great_pret AND proper = improper AND complete = completed AND 1 = more AND recommended = recommended THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R108: IF usual = great_pret AND proper = improper AND complete = incomplete AND 1 = 2 AND recommended = recommended THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R109: IF usual = great_pret AND proper = less_proper AND complete = complete AND 1 = 1 AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R110: IF usual = great_pret AND proper = proper AND complete = complete AND 1 = 1 AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R111: IF usual = pretentious AND proper = critical AND complete = incomplete AND 1 = more AND recommended = recommended THEN spec_prior
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R112: IF usual = pretentious AND proper = improper AND complete = complete AND 1 = 1 AND recommended = priority THEN priority
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R113: IF usual = pretentious AND proper = improper AND complete = complete AND 1 = 1 AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R114: IF usual = pretentious AND proper = less_proper AND complete = foster AND 1 = 3 AND recommended = recommended THEN priority
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R115: IF usual = pretentious AND proper = less_proper AND complete = foster AND 1 = more AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R116: IF usual = pretentious AND proper = proper AND complete = foster AND 1 = more AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R117: IF usual = usual AND proper = critical AND complete = complete AND 1 = 1 AND recommended = priority THEN priority
+Coverage: 16 instances 0.15% of all instances
+Precision: 100.00%
+R118: IF usual = usual AND proper = critical AND complete = complete AND 1 = 1 AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R119: IF usual = usual AND proper = improper AND complete = completed AND 1 = more AND recommended = recommended THEN priority
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R120: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 3 AND recommended = recommended THEN priority
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R121: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 3 AND recommended = recommended THEN priority
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R122: IF usual = great_pret AND proper = critical AND complete = completed AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R123: IF usual = great_pret AND proper = critical AND complete = foster AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 21 instances 0.20% of all instances
+Precision: 100.00%
+R124: IF usual = great_pret AND proper = critical AND complete = foster AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R125: IF usual = great_pret AND proper = critical AND complete = incomplete AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 22 instances 0.21% of all instances
+Precision: 100.00%
+R126: IF usual = great_pret AND proper = improper AND complete = completed AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 16 instances 0.15% of all instances
+Precision: 100.00%
+R127: IF usual = great_pret AND proper = improper AND complete = foster AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 21 instances 0.20% of all instances
+Precision: 100.00%
+R128: IF usual = great_pret AND proper = improper AND complete = foster AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R129: IF usual = great_pret AND proper = improper AND complete = incomplete AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R130: IF usual = pretentious AND proper = critical AND complete = completed AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R131: IF usual = pretentious AND proper = critical AND complete = foster AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R132: IF usual = pretentious AND proper = critical AND complete = foster AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R133: IF usual = pretentious AND proper = critical AND complete = incomplete AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R134: IF usual = pretentious AND proper = improper AND complete = completed AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 20 instances 0.19% of all instances
+Precision: 100.00%
+R135: IF usual = pretentious AND proper = improper AND complete = foster AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R136: IF usual = pretentious AND proper = improper AND complete = foster AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 19 instances 0.18% of all instances
+Precision: 100.00%
+R137: IF usual = pretentious AND proper = improper AND complete = incomplete AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 18 instances 0.17% of all instances
+Precision: 100.00%
+R138: IF usual = pretentious AND proper = less_proper AND complete = completed AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R139: IF usual = pretentious AND proper = less_proper AND complete = foster AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R140: IF usual = pretentious AND proper = less_proper AND complete = foster AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R141: IF usual = pretentious AND proper = less_proper AND complete = incomplete AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R142: IF usual = pretentious AND proper = proper AND complete = completed AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R143: IF usual = pretentious AND proper = proper AND complete = foster AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R144: IF usual = pretentious AND proper = proper AND complete = foster AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R145: IF usual = pretentious AND proper = proper AND complete = incomplete AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R146: IF usual = usual AND proper = improper AND complete = completed AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R147: IF usual = usual AND proper = improper AND complete = foster AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R148: IF usual = usual AND proper = improper AND complete = foster AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R149: IF usual = usual AND proper = improper AND complete = incomplete AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R150: IF usual = usual AND proper = less_proper AND complete = completed AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R151: IF usual = usual AND proper = less_proper AND complete = foster AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R152: IF usual = usual AND proper = less_proper AND complete = foster AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R153: IF usual = usual AND proper = less_proper AND complete = incomplete AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R154: IF usual = usual AND proper = proper AND complete = completed AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R155: IF usual = usual AND proper = proper AND complete = foster AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R156: IF usual = usual AND proper = proper AND complete = foster AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R157: IF usual = usual AND proper = proper AND complete = incomplete AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R158: IF usual = great_pret AND proper = critical AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R159: IF usual = great_pret AND proper = improper AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R160: IF usual = pretentious AND proper = critical AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R161: IF usual = pretentious AND proper = improper AND complete = foster AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R162: IF usual = pretentious AND proper = less_proper AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R163: IF usual = pretentious AND proper = proper AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R164: IF usual = usual AND proper = improper AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R165: IF usual = usual AND proper = less_proper AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R166: IF usual = usual AND proper = proper AND complete = foster AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R167: IF usual = great_pret AND proper = critical AND complete = completed AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R168: IF usual = great_pret AND proper = critical AND complete = foster AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R169: IF usual = great_pret AND proper = critical AND complete = incomplete AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R170: IF usual = great_pret AND proper = improper AND complete = completed AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R171: IF usual = great_pret AND proper = improper AND complete = foster AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R172: IF usual = great_pret AND proper = improper AND complete = incomplete AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R173: IF usual = great_pret AND proper = critical AND 1 = 2 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R174: IF usual = great_pret AND proper = critical AND 1 = 3 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R175: IF usual = great_pret AND proper = critical AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R176: IF usual = great_pret AND proper = critical AND 1 = more AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R177: IF usual = great_pret AND proper = critical AND 1 = more AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R178: IF usual = great_pret AND proper = improper AND 1 = 2 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R179: IF usual = great_pret AND proper = improper AND 1 = 3 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R180: IF usual = great_pret AND proper = improper AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R181: IF usual = great_pret AND proper = improper AND 1 = more AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R182: IF usual = great_pret AND proper = improper AND 1 = more AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R183: IF usual = pretentious AND proper = critical AND 1 = 2 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R184: IF usual = pretentious AND proper = critical AND 1 = 3 AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R185: IF usual = pretentious AND proper = critical AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R186: IF usual = pretentious AND proper = critical AND 1 = more AND convenient = critical AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R187: IF usual = pretentious AND proper = critical AND 1 = more AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R188: IF usual = pretentious AND proper = improper AND 1 = 2 AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R189: IF usual = pretentious AND proper = improper AND 1 = 3 AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R190: IF usual = pretentious AND proper = improper AND 1 = 3 AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 17 instances 0.16% of all instances
+Precision: 100.00%
+R191: IF usual = pretentious AND proper = improper AND 1 = more AND convenient = critical AND recommended = priority THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R192: IF usual = pretentious AND proper = improper AND 1 = more AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R193: IF usual = pretentious AND proper = less_proper AND 1 = 2 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R194: IF usual = pretentious AND proper = less_proper AND 1 = 3 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R195: IF usual = pretentious AND proper = less_proper AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R196: IF usual = pretentious AND proper = less_proper AND 1 = more AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R197: IF usual = pretentious AND proper = less_proper AND 1 = more AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R198: IF usual = pretentious AND proper = proper AND 1 = 2 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R199: IF usual = pretentious AND proper = proper AND 1 = 3 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R200: IF usual = pretentious AND proper = proper AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R201: IF usual = pretentious AND proper = proper AND 1 = more AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R202: IF usual = pretentious AND proper = proper AND 1 = more AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R203: IF usual = usual AND proper = critical AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R204: IF usual = usual AND proper = improper AND 1 = 2 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R205: IF usual = usual AND proper = improper AND 1 = 3 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R206: IF usual = usual AND proper = improper AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R207: IF usual = usual AND proper = improper AND 1 = more AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R208: IF usual = usual AND proper = improper AND 1 = more AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R209: IF usual = usual AND proper = less_proper AND 1 = 2 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R210: IF usual = usual AND proper = less_proper AND 1 = 3 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R211: IF usual = usual AND proper = less_proper AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R212: IF usual = usual AND proper = less_proper AND 1 = more AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R213: IF usual = usual AND proper = less_proper AND 1 = more AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R214: IF usual = usual AND proper = proper AND 1 = 2 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R215: IF usual = usual AND proper = proper AND 1 = 3 AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R216: IF usual = usual AND proper = proper AND 1 = 3 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R217: IF usual = usual AND proper = proper AND 1 = more AND convenient = critical AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R218: IF usual = usual AND proper = proper AND 1 = more AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R219: IF usual = great_pret AND proper = critical AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R220: IF usual = great_pret AND proper = critical AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R221: IF usual = great_pret AND proper = improper AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R222: IF usual = great_pret AND proper = improper AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R223: IF usual = pretentious AND proper = critical AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R224: IF usual = pretentious AND proper = critical AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R225: IF usual = pretentious AND proper = improper AND 1 = 3 AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R226: IF usual = pretentious AND proper = improper AND 1 = more AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R227: IF usual = pretentious AND proper = less_proper AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R228: IF usual = pretentious AND proper = less_proper AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R229: IF usual = pretentious AND proper = proper AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R230: IF usual = pretentious AND proper = proper AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R231: IF usual = usual AND proper = improper AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R232: IF usual = usual AND proper = improper AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R233: IF usual = usual AND proper = less_proper AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R234: IF usual = usual AND proper = less_proper AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R235: IF usual = usual AND proper = proper AND 1 = 3 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R236: IF usual = usual AND proper = proper AND 1 = more AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R237: IF usual = great_pret AND proper = critical AND 1 = 2 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R238: IF usual = great_pret AND proper = critical AND 1 = more AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R239: IF usual = great_pret AND proper = improper AND 1 = 2 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R240: IF usual = great_pret AND proper = improper AND 1 = 3 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R241: IF usual = great_pret AND proper = improper AND 1 = more AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R242: IF usual = great_pret AND proper = less_proper AND convenient = convenient AND convenient.1 = convenient AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R243: IF usual = great_pret AND proper = proper AND convenient = convenient AND convenient.1 = convenient AND recommended = recommended THEN priority
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R244: IF usual = pretentious AND proper = improper AND convenient = convenient AND convenient.1 = convenient AND recommended = priority THEN priority
+Coverage: 40 instances 0.39% of all instances
+Precision: 100.00%
+R245: IF usual = pretentious AND proper = improper AND convenient = convenient AND convenient.1 = convenient AND recommended = recommended THEN priority
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R246: IF usual = usual AND proper = critical AND convenient = convenient AND convenient.1 = convenient AND recommended = priority THEN priority
+Coverage: 34 instances 0.33% of all instances
+Precision: 100.00%
+R247: IF usual = usual AND proper = critical AND convenient = convenient AND convenient.1 = convenient AND recommended = recommended THEN priority
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R248: IF usual = great_pret AND proper = critical AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R249: IF usual = great_pret AND proper = critical AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R250: IF usual = great_pret AND proper = improper AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R251: IF usual = great_pret AND proper = improper AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R252: IF usual = great_pret AND proper = critical AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R253: IF usual = great_pret AND proper = improper AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R254: IF usual = great_pret AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 7 instances 0.07% of all instances
+Precision: 100.00%
+R255: IF usual = great_pret AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R256: IF usual = great_pret AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 17 instances 0.16% of all instances
+Precision: 100.00%
+R257: IF usual = great_pret AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R258: IF usual = great_pret AND complete = incomplete AND 1 = 3 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R259: IF usual = great_pret AND complete = completed AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R260: IF usual = great_pret AND complete = foster AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R261: IF usual = great_pret AND complete = foster AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 15 instances 0.14% of all instances
+Precision: 100.00%
+R262: IF usual = great_pret AND complete = incomplete AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R263: IF usual = great_pret AND complete = foster AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R264: IF usual = great_pret AND 1 = 2 AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R265: IF usual = great_pret AND 1 = 3 AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R266: IF usual = great_pret AND 1 = 3 AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R267: IF usual = great_pret AND 1 = more AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R268: IF usual = great_pret AND 1 = more AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R269: IF usual = great_pret AND 1 = 3 AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R270: IF usual = great_pret AND 1 = more AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R271: IF usual = great_pret AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 38 instances 0.37% of all instances
+Precision: 100.00%
+R272: IF usual = great_pret AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 34 instances 0.33% of all instances
+Precision: 100.00%
+R273: IF proper = critical AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R274: IF proper = less_proper AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R275: IF proper = less_proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R276: IF proper = less_proper AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R277: IF proper = less_proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R278: IF proper = less_proper AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R279: IF proper = less_proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R280: IF proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R281: IF proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R282: IF proper = proper AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R283: IF proper = proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R284: IF proper = proper AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R285: IF proper = proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R286: IF proper = proper AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R287: IF proper = proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R288: IF proper = proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R289: IF proper = proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R290: IF proper = very_crit AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R291: IF proper = critical AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R292: IF proper = very_crit AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R293: IF proper = critical AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R294: IF proper = critical AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R295: IF proper = critical AND complete = foster AND 1 = 2 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R296: IF proper = critical AND complete = incomplete AND 1 = 3 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R297: IF proper = very_crit AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R298: IF proper = very_crit AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R299: IF proper = critical AND complete = completed AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R300: IF proper = critical AND complete = foster AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R301: IF proper = critical AND complete = foster AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R302: IF proper = critical AND complete = incomplete AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R303: IF proper = critical AND complete = foster AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R304: IF proper = critical AND 1 = 2 AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R305: IF proper = critical AND 1 = 3 AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R306: IF proper = critical AND 1 = 3 AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R307: IF proper = critical AND 1 = more AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R308: IF proper = critical AND 1 = more AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R309: IF proper = critical AND 1 = 3 AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R310: IF proper = critical AND 1 = more AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R311: IF proper = critical AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 14 instances 0.14% of all instances
+Precision: 100.00%
+R312: IF proper = critical AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R313: IF proper = very_crit AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 24 instances 0.23% of all instances
+Precision: 100.00%
+R314: IF proper = very_crit AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 25 instances 0.24% of all instances
+Precision: 100.00%
+R315: IF complete = complete AND 1 = 1 AND convenient = convenient AND convenient.1 = convenient AND recommended = priority THEN priority
+Coverage: 12 instances 0.12% of all instances
+Precision: 100.00%
+R316: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R317: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = problematic THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R318: IF usual = usual AND proper = critical AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R319: IF usual = usual AND proper = critical AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R320: IF usual = usual AND proper = critical AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND nonprob = problematic THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R321: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R322: IF usual = great_pret AND proper = critical AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R323: IF usual = great_pret AND proper = critical AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R324: IF usual = great_pret AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R325: IF usual = great_pret AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R326: IF usual = great_pret AND proper = less_proper AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R327: IF usual = great_pret AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R328: IF usual = great_pret AND proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R329: IF usual = great_pret AND proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R330: IF usual = great_pret AND proper = proper AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R331: IF usual = great_pret AND proper = proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R332: IF usual = great_pret AND proper = proper AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R333: IF usual = great_pret AND proper = proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R334: IF usual = great_pret AND proper = proper AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R335: IF usual = great_pret AND proper = proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R336: IF usual = great_pret AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R337: IF usual = pretentious AND proper = critical AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R338: IF usual = pretentious AND proper = improper AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R339: IF usual = pretentious AND proper = improper AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R340: IF usual = pretentious AND proper = improper AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R341: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R342: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R343: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R344: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R345: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R346: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R347: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R348: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R349: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R350: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R351: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R352: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN spec_prior
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R353: IF usual = pretentious AND proper = less_proper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R354: IF usual = pretentious AND proper = proper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R355: IF usual = usual AND proper = critical AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R356: IF usual = usual AND proper = critical AND complete = complete AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R357: IF usual = usual AND proper = critical AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R358: IF usual = usual AND proper = critical AND complete = complete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R359: IF usual = usual AND proper = critical AND complete = completed AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R360: IF usual = usual AND proper = critical AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R361: IF usual = usual AND proper = critical AND complete = completed AND 1 = 1 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R362: IF usual = usual AND proper = critical AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R363: IF usual = usual AND proper = critical AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R364: IF usual = usual AND proper = critical AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R365: IF usual = usual AND proper = critical AND complete = completed AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R366: IF usual = usual AND proper = critical AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = priority THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R367: IF usual = usual AND proper = critical AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = priority THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R368: IF usual = usual AND proper = critical AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R369: IF usual = usual AND proper = improper AND complete = completed AND 1 = 2 AND convenient = convenient AND recommended = recommended THEN very_recom
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R370: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R371: IF usual = usual AND proper = less_proper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R372: IF usual = usual AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND recommended = recommended THEN very_recom
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R373: IF usual = usual AND proper = proper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R374: IF usual = great_pret AND proper = critical AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R375: IF usual = pretentious AND proper = critical AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R376: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = priority THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R377: IF usual = pretentious AND proper = less_proper AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R378: IF usual = pretentious AND proper = proper AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R379: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R380: IF usual = usual AND proper = less_proper AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R381: IF usual = usual AND proper = proper AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R382: IF usual = great_pret AND proper = improper AND complete = incomplete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R383: IF usual = great_pret AND proper = very_crit AND complete = completed AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R384: IF usual = pretentious AND proper = critical AND complete = completed AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R385: IF usual = pretentious AND proper = critical AND complete = completed AND 1 = 2 AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R386: IF usual = pretentious AND proper = improper AND complete = completed AND 1 = 3 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R387: IF usual = pretentious AND proper = improper AND complete = foster AND 1 = more AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R388: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 3 AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R389: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = more AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R390: IF usual = pretentious AND proper = less_proper AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R391: IF usual = pretentious AND proper = less_proper AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R392: IF usual = pretentious AND proper = proper AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R393: IF usual = pretentious AND proper = proper AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R394: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R395: IF usual = usual AND proper = improper AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R396: IF usual = usual AND proper = improper AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R397: IF usual = usual AND proper = less_proper AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R398: IF usual = usual AND proper = less_proper AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R399: IF usual = usual AND proper = proper AND complete = complete AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R400: IF usual = usual AND proper = proper AND complete = complete AND 1 = 1 AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R401: IF usual = usual AND proper = proper AND complete = completed AND 1 = 1 AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R402: IF usual = pretentious AND proper = improper AND complete = completed AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R403: IF usual = pretentious AND proper = improper AND complete = foster AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R404: IF usual = pretentious AND proper = improper AND complete = foster AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R405: IF usual = pretentious AND proper = improper AND complete = incomplete AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R406: IF usual = usual AND proper = proper AND complete = complete AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R407: IF usual = pretentious AND proper = improper AND complete = foster AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R408: IF usual = great_pret AND proper = critical AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R409: IF usual = great_pret AND proper = very_crit AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R410: IF usual = great_pret AND proper = very_crit AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R411: IF usual = pretentious AND proper = critical AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R412: IF usual = pretentious AND proper = improper AND 1 = 2 AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R413: IF usual = pretentious AND proper = improper AND 1 = 3 AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R414: IF usual = pretentious AND proper = improper AND 1 = more AND convenient = critical AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R415: IF usual = pretentious AND proper = improper AND 1 = more AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R416: IF usual = pretentious AND proper = less_proper AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R417: IF usual = pretentious AND proper = proper AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R418: IF usual = usual AND proper = proper AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R419: IF usual = pretentious AND proper = improper AND 1 = more AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R420: IF usual = pretentious AND proper = less_proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R421: IF usual = pretentious AND proper = less_proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R422: IF usual = pretentious AND proper = proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R423: IF usual = pretentious AND proper = proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R424: IF usual = usual AND proper = improper AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R425: IF usual = usual AND proper = improper AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 10 instances 0.10% of all instances
+Precision: 100.00%
+R426: IF usual = usual AND proper = less_proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 9 instances 0.09% of all instances
+Precision: 100.00%
+R427: IF usual = usual AND proper = less_proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 13 instances 0.13% of all instances
+Precision: 100.00%
+R428: IF usual = usual AND proper = proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 8 instances 0.08% of all instances
+Precision: 100.00%
+R429: IF usual = usual AND proper = proper AND convenient = convenient AND convenient.1 = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 11 instances 0.11% of all instances
+Precision: 100.00%
+R430: IF usual = great_pret AND complete = complete AND 1 = 1 AND convenient = convenient AND convenient.1 = convenient AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R431: IF usual = great_pret AND complete = complete AND 1 = 2 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R432: IF usual = great_pret AND complete = complete AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R433: IF usual = great_pret AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R434: IF usual = great_pret AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R435: IF usual = great_pret AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R436: IF usual = great_pret AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R437: IF usual = great_pret AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R438: IF usual = great_pret AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R439: IF usual = great_pret AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R440: IF usual = great_pret AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 5 instances 0.05% of all instances
+Precision: 100.00%
+R441: IF usual = great_pret AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 6 instances 0.06% of all instances
+Precision: 100.00%
+R442: IF usual = great_pret AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R443: IF usual = great_pret AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 4 instances 0.04% of all instances
+Precision: 100.00%
+R444: IF usual = great_pret AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R445: IF usual = great_pret AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R446: IF usual = great_pret AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R447: IF proper = critical AND complete = complete AND 1 = 2 AND convenient = convenient AND convenient.1 = inconv AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R448: IF proper = very_crit AND complete = complete AND 1 = 1 AND convenient = convenient AND convenient.1 = convenient AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R449: IF proper = critical AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R450: IF proper = critical AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R451: IF proper = critical AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R452: IF proper = critical AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R453: IF proper = critical AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R454: IF proper = less_proper AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R455: IF proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R456: IF proper = very_crit AND complete = complete AND 1 = 2 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R457: IF proper = very_crit AND complete = complete AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R458: IF proper = very_crit AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R459: IF proper = very_crit AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R460: IF proper = very_crit AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R461: IF proper = very_crit AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R462: IF proper = very_crit AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R463: IF proper = very_crit AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R464: IF proper = very_crit AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R465: IF proper = very_crit AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R466: IF proper = very_crit AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R467: IF proper = very_crit AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R468: IF proper = very_crit AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R469: IF proper = very_crit AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN priority
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R470: IF proper = very_crit AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN priority
+Coverage: 3 instances 0.03% of all instances
+Precision: 100.00%
+R471: IF proper = critical AND complete = incomplete AND 1 = 2 AND convenient.1 = inconv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R472: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND convenient.1 = inconv AND nonprob = problematic THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R473: IF usual = pretentious AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = convenient AND convenient.1 = inconv AND nonprob = nonprob THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R474: IF usual = pretentious AND proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND convenient.1 = inconv AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R475: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND convenient.1 = convenient AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R476: IF usual = usual AND proper = improper AND complete = completed AND 1 = 2 AND convenient = less_conv AND convenient.1 = convenient AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R477: IF usual = usual AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = convenient AND convenient.1 = inconv AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R478: IF usual = usual AND proper = proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND convenient.1 = inconv AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R479: IF usual = pretentious AND proper = improper AND complete = incomplete AND 1 = 2 AND convenient = less_conv AND nonprob = problematic AND recommended = recommended THEN spec_prior
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R480: IF usual = pretentious AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R481: IF usual = pretentious AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R482: IF usual = pretentious AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R483: IF usual = pretentious AND proper = less_proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R484: IF usual = pretentious AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R485: IF usual = pretentious AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R486: IF usual = pretentious AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R487: IF usual = pretentious AND proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R488: IF usual = pretentious AND proper = proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R489: IF usual = pretentious AND proper = proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R490: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R491: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R492: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R493: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R494: IF usual = pretentious AND proper = proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R495: IF usual = pretentious AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R496: IF usual = pretentious AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R497: IF usual = pretentious AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R498: IF usual = pretentious AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R499: IF usual = usual AND proper = improper AND complete = complete AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R500: IF usual = usual AND proper = improper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R501: IF usual = usual AND proper = improper AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R502: IF usual = usual AND proper = improper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R503: IF usual = usual AND proper = improper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R504: IF usual = usual AND proper = improper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R505: IF usual = usual AND proper = improper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R506: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R507: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R508: IF usual = usual AND proper = improper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R509: IF usual = usual AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R510: IF usual = usual AND proper = less_proper AND complete = complete AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R511: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 1 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R512: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R513: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R514: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R515: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R516: IF usual = usual AND proper = less_proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R517: IF usual = usual AND proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R518: IF usual = usual AND proper = less_proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R519: IF usual = usual AND proper = proper AND complete = completed AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R520: IF usual = usual AND proper = proper AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R521: IF usual = usual AND proper = proper AND complete = completed AND 1 = 2 AND convenient = convenient AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R522: IF usual = usual AND proper = proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R523: IF usual = usual AND proper = proper AND complete = completed AND 1 = 2 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 2 instances 0.02% of all instances
+Precision: 100.00%
+R524: IF usual = usual AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = nonprob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+R525: IF usual = usual AND proper = proper AND complete = incomplete AND 1 = 1 AND convenient = less_conv AND nonprob = slightly_prob AND recommended = recommended THEN very_recom
+Coverage: 1 instances 0.01% of all instances
+Precision: 100.00%
+Number of derived rules: 525
+Training time: 0:31:30.048743
+Covered instances: 10367
+Accuracy: 0.9780092592592593

@@ -1,0 +1,25 @@
+,NT,F,NF,Accuracy,1,2,3,4
+0,1,1,1,0.933,PetalWidthCm: 0.416,SepalLengthCm: 0.405,SepalWidthCm: 0.122,PetalLengthCm: 0.056
+1,1,3,3,1.0,PetalWidthCm: 0.377,SepalLengthCm: 0.273,SepalWidthCm: 0.194,PetalLengthCm: 0.155
+2,1,log2(M+1),3,0.967,SepalLengthCm: 0.402,PetalWidthCm: 0.362,PetalLengthCm: 0.197,SepalWidthCm: 0.04
+3,1,sqrt(M),2,0.9,SepalLengthCm: 0.319,PetalWidthCm: 0.311,PetalLengthCm: 0.254,SepalWidthCm: 0.116
+4,10,1,1,1.0,PetalLengthCm: 0.378,PetalWidthCm: 0.27,SepalWidthCm: 0.204,SepalLengthCm: 0.148
+5,10,3,3,1.0,PetalWidthCm: 0.347,SepalLengthCm: 0.237,PetalLengthCm: 0.226,SepalWidthCm: 0.19
+6,10,log2(M+1),3,1.0,PetalWidthCm: 0.421,PetalLengthCm: 0.208,SepalLengthCm: 0.198,SepalWidthCm: 0.173
+7,10,sqrt(M),2,1.0,PetalWidthCm: 0.318,PetalLengthCm: 0.264,SepalWidthCm: 0.216,SepalLengthCm: 0.201
+8,25,1,1,1.0,PetalWidthCm: 0.34,PetalLengthCm: 0.283,SepalWidthCm: 0.194,SepalLengthCm: 0.184
+9,25,3,3,1.0,PetalWidthCm: 0.361,PetalLengthCm: 0.27,SepalWidthCm: 0.192,SepalLengthCm: 0.177
+10,25,log2(M+1),3,1.0,PetalWidthCm: 0.353,PetalLengthCm: 0.311,SepalWidthCm: 0.181,SepalLengthCm: 0.155
+11,25,sqrt(M),2,1.0,PetalWidthCm: 0.33,PetalLengthCm: 0.287,SepalWidthCm: 0.224,SepalLengthCm: 0.159
+12,50,1,1,1.0,PetalLengthCm: 0.317,PetalWidthCm: 0.317,SepalWidthCm: 0.186,SepalLengthCm: 0.181
+13,50,3,3,1.0,PetalWidthCm: 0.38,PetalLengthCm: 0.221,SepalWidthCm: 0.205,SepalLengthCm: 0.193
+14,50,log2(M+1),3,1.0,PetalWidthCm: 0.338,PetalLengthCm: 0.267,SepalWidthCm: 0.2,SepalLengthCm: 0.195
+15,50,sqrt(M),2,1.0,PetalWidthCm: 0.31,PetalLengthCm: 0.287,SepalWidthCm: 0.226,SepalLengthCm: 0.177
+16,75,1,1,1.0,PetalLengthCm: 0.321,PetalWidthCm: 0.312,SepalLengthCm: 0.185,SepalWidthCm: 0.181
+17,75,3,3,1.0,PetalWidthCm: 0.372,PetalLengthCm: 0.225,SepalWidthCm: 0.209,SepalLengthCm: 0.194
+18,75,log2(M+1),3,1.0,PetalWidthCm: 0.36,PetalLengthCm: 0.236,SepalLengthCm: 0.207,SepalWidthCm: 0.198
+19,75,sqrt(M),2,1.0,PetalWidthCm: 0.307,PetalLengthCm: 0.293,SepalWidthCm: 0.217,SepalLengthCm: 0.183
+20,100,1,1,1.0,PetalWidthCm: 0.336,PetalLengthCm: 0.313,SepalLengthCm: 0.183,SepalWidthCm: 0.168
+21,100,3,3,1.0,PetalWidthCm: 0.377,PetalLengthCm: 0.235,SepalWidthCm: 0.197,SepalLengthCm: 0.191
+22,100,log2(M+1),3,0.967,PetalWidthCm: 0.35,PetalLengthCm: 0.251,SepalWidthCm: 0.206,SepalLengthCm: 0.193
+23,100,sqrt(M),2,1.0,PetalWidthCm: 0.337,PetalLengthCm: 0.285,SepalWidthCm: 0.202,SepalLengthCm: 0.176

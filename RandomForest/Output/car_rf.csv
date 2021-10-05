@@ -1,0 +1,25 @@
+,NT,F,NF,Accuracy,1,2,3,4,5,6
+0,1,1,1,0.665,safety: 0.611,persons: 0.248,doors: 0.083,buying: 0.022,maint: 0.022,lug_boot: 0.015
+1,1,3,3,0.951,buying: 0.293,maint: 0.244,persons: 0.193,doors: 0.136,lug_boot: 0.108,safety: 0.026
+2,1,log2(M+1),3,0.942,persons: 0.362,doors: 0.269,buying: 0.158,lug_boot: 0.109,maint: 0.068,safety: 0.035
+3,1,sqrt(M),2,0.879,buying: 0.407,lug_boot: 0.342,persons: 0.137,doors: 0.052,maint: 0.032,safety: 0.03
+4,10,1,1,0.754,safety: 0.321,maint: 0.253,persons: 0.196,buying: 0.16,lug_boot: 0.053,doors: 0.017
+5,10,3,3,0.96,safety: 0.208,lug_boot: 0.184,buying: 0.183,persons: 0.181,doors: 0.171,maint: 0.072
+6,10,log2(M+1),3,0.968,lug_boot: 0.248,buying: 0.227,persons: 0.156,safety: 0.151,doors: 0.142,maint: 0.077
+7,10,sqrt(M),2,0.951,safety: 0.375,persons: 0.184,lug_boot: 0.149,buying: 0.126,maint: 0.095,doors: 0.071
+8,25,1,1,0.798,persons: 0.298,safety: 0.245,buying: 0.182,maint: 0.158,lug_boot: 0.075,doors: 0.042
+9,25,3,3,0.954,maint: 0.208,persons: 0.182,lug_boot: 0.175,buying: 0.171,doors: 0.151,safety: 0.113
+10,25,log2(M+1),3,0.957,lug_boot: 0.235,persons: 0.18,maint: 0.169,doors: 0.158,safety: 0.135,buying: 0.123
+11,25,sqrt(M),2,0.957,safety: 0.242,maint: 0.19,lug_boot: 0.174,buying: 0.152,persons: 0.151,doors: 0.09
+12,50,1,1,0.803,safety: 0.317,persons: 0.211,maint: 0.195,buying: 0.163,lug_boot: 0.082,doors: 0.031
+13,50,3,3,0.957,lug_boot: 0.2,persons: 0.191,buying: 0.166,doors: 0.16,safety: 0.146,maint: 0.138
+14,50,log2(M+1),3,0.96,buying: 0.216,lug_boot: 0.195,persons: 0.164,doors: 0.152,safety: 0.147,maint: 0.126
+15,50,sqrt(M),2,0.951,safety: 0.237,persons: 0.175,buying: 0.174,lug_boot: 0.172,maint: 0.142,doors: 0.099
+16,75,1,1,0.786,safety: 0.303,persons: 0.29,buying: 0.157,maint: 0.143,lug_boot: 0.07,doors: 0.037
+17,75,3,3,0.96,lug_boot: 0.214,persons: 0.171,maint: 0.163,safety: 0.158,doors: 0.149,buying: 0.145
+18,75,log2(M+1),3,0.962,lug_boot: 0.205,safety: 0.177,persons: 0.165,buying: 0.154,doors: 0.152,maint: 0.148
+19,75,sqrt(M),2,0.954,safety: 0.221,buying: 0.204,lug_boot: 0.171,persons: 0.161,maint: 0.156,doors: 0.088
+20,100,1,1,0.743,safety: 0.356,persons: 0.24,buying: 0.179,maint: 0.11,lug_boot: 0.083,doors: 0.03
+21,100,3,3,0.962,lug_boot: 0.194,persons: 0.174,safety: 0.166,maint: 0.16,doors: 0.154,buying: 0.152
+22,100,log2(M+1),3,0.962,lug_boot: 0.231,maint: 0.168,safety: 0.164,persons: 0.157,doors: 0.145,buying: 0.136
+23,100,sqrt(M),2,0.96,safety: 0.286,buying: 0.176,persons: 0.165,maint: 0.159,lug_boot: 0.133,doors: 0.082

@@ -1,0 +1,19 @@
+Number of training instances: 11
+R1: IF Trees = yellow THEN autumn
+Coverage: 2 instances 18.18% of all instances
+Precision: 100.00%
+R2: IF Temperature = high THEN summer
+Coverage: 2 instances 18.18% of all instances
+Precision: 100.00%
+R3: IF Temperature = low THEN winter
+Coverage: 4 instances 36.36% of all instances
+Precision: 100.00%
+R4: IF Trees = green AND Temperature = average THEN spring
+Coverage: 2 instances 18.18% of all instances
+Precision: 100.00%
+R5: IF Trees = leafless AND Temperature = average THEN autumn
+Coverage: 1 instances 9.09% of all instances
+Precision: 100.00%
+Number of derived rules: 5
+Training time: 0:00:00.001974
+Covered instances: 11

@@ -1,0 +1,31 @@
+Number of training instances: 24
+R1: IF Tear-Production = reduced THEN none
+Coverage: 12 instances 50.00% of all instances
+Precision: 100.00%
+R2: IF Age = pre-presbiopic AND Visual-Deficiency = hypermetropia AND Astigmatism = yes THEN none
+Coverage: 1 instances 4.17% of all instances
+Precision: 100.00%
+R3: IF Age = presbiopic AND Visual-Deficiency = hypermetropia AND Astigmatism = yes THEN none
+Coverage: 1 instances 4.17% of all instances
+Precision: 100.00%
+R4: IF Age = presbiopic AND Visual-Deficiency = myopia AND Astigmatism = no THEN none
+Coverage: 1 instances 4.17% of all instances
+Precision: 100.00%
+R5: IF Age = pre-presbiopic AND Astigmatism = no AND Tear-Production = normal THEN soft
+Coverage: 2 instances 8.33% of all instances
+Precision: 100.00%
+R6: IF Age = young AND Astigmatism = no AND Tear-Production = normal THEN soft
+Coverage: 2 instances 8.33% of all instances
+Precision: 100.00%
+R7: IF Age = young AND Astigmatism = yes AND Tear-Production = normal THEN hard
+Coverage: 2 instances 8.33% of all instances
+Precision: 100.00%
+R8: IF Visual-Deficiency = hypermetropia AND Astigmatism = no AND Tear-Production = normal THEN soft
+Coverage: 1 instances 4.17% of all instances
+Precision: 100.00%
+R9: IF Visual-Deficiency = myopia AND Astigmatism = yes AND Tear-Production = normal THEN hard
+Coverage: 2 instances 8.33% of all instances
+Precision: 100.00%
+Number of derived rules: 9
+Training time: 0:00:00.005985
+Covered instances: 24

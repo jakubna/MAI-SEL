@@ -1,0 +1,745 @@
+Name of dataset: balance-scale
+Number of training instances: 500
+Number of test instances: 125
+R1: IF LeftW = 5 AND LeftD = 5 THEN L
+Coverage: 15 instances 3.00% of all instances
+Precision: 100.00%
+R2: IF LeftW = 1 AND RightD = 5 THEN R
+Coverage: 19 instances 3.80% of all instances
+Precision: 100.00%
+R3: IF LeftD = 5 AND RightW = 1 THEN L
+Coverage: 15 instances 3.00% of all instances
+Precision: 100.00%
+R4: IF RightW = 5 AND RightD = 5 THEN R
+Coverage: 16 instances 3.20% of all instances
+Precision: 100.00%
+R5: IF LeftW = 1 AND LeftD = 1 AND RightW = 2 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R6: IF LeftW = 1 AND LeftD = 1 AND RightW = 3 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R7: IF LeftW = 1 AND LeftD = 1 AND RightW = 4 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R8: IF LeftW = 1 AND LeftD = 1 AND RightW = 5 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R9: IF LeftW = 1 AND LeftD = 2 AND RightW = 1 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R10: IF LeftW = 1 AND LeftD = 2 AND RightW = 3 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R11: IF LeftW = 1 AND LeftD = 2 AND RightW = 4 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R12: IF LeftW = 1 AND LeftD = 2 AND RightW = 5 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R13: IF LeftW = 1 AND LeftD = 3 AND RightW = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R14: IF LeftW = 1 AND LeftD = 3 AND RightW = 4 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R15: IF LeftW = 1 AND LeftD = 3 AND RightW = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R16: IF LeftW = 1 AND LeftD = 4 AND RightW = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R17: IF LeftW = 2 AND LeftD = 1 AND RightW = 3 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R18: IF LeftW = 2 AND LeftD = 1 AND RightW = 4 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R19: IF LeftW = 2 AND LeftD = 1 AND RightW = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R20: IF LeftW = 2 AND LeftD = 2 AND RightW = 4 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R21: IF LeftW = 2 AND LeftD = 2 AND RightW = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R22: IF LeftW = 2 AND LeftD = 3 AND RightW = 1 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R23: IF LeftW = 2 AND LeftD = 3 AND RightW = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R24: IF LeftW = 2 AND LeftD = 4 AND RightW = 1 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R25: IF LeftW = 2 AND LeftD = 4 AND RightW = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R26: IF LeftW = 3 AND LeftD = 1 AND RightW = 4 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R27: IF LeftW = 3 AND LeftD = 1 AND RightW = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R28: IF LeftW = 3 AND LeftD = 2 AND RightW = 1 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R29: IF LeftW = 3 AND LeftD = 3 AND RightW = 1 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R30: IF LeftW = 3 AND LeftD = 4 AND RightW = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R31: IF LeftW = 3 AND LeftD = 4 AND RightW = 2 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R32: IF LeftW = 3 AND LeftD = 5 AND RightW = 2 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R33: IF LeftW = 4 AND LeftD = 1 AND RightW = 4 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R34: IF LeftW = 4 AND LeftD = 1 AND RightW = 5 THEN R
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R35: IF LeftW = 4 AND LeftD = 2 AND RightW = 1 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R36: IF LeftW = 4 AND LeftD = 2 AND RightW = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R37: IF LeftW = 4 AND LeftD = 3 AND RightW = 1 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R38: IF LeftW = 4 AND LeftD = 3 AND RightW = 2 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R39: IF LeftW = 4 AND LeftD = 4 AND RightW = 1 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R40: IF LeftW = 4 AND LeftD = 4 AND RightW = 2 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R41: IF LeftW = 4 AND LeftD = 4 AND RightW = 3 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R42: IF LeftW = 4 AND LeftD = 5 AND RightW = 2 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R43: IF LeftW = 4 AND LeftD = 5 AND RightW = 3 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R44: IF LeftW = 5 AND LeftD = 2 AND RightW = 1 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R45: IF LeftW = 5 AND LeftD = 3 AND RightW = 1 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R46: IF LeftW = 5 AND LeftD = 3 AND RightW = 2 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R47: IF LeftW = 5 AND LeftD = 4 AND RightW = 1 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R48: IF LeftW = 5 AND LeftD = 4 AND RightW = 2 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R49: IF LeftW = 5 AND LeftD = 4 AND RightW = 3 THEN L
+Coverage: 5 instances 1.00% of all instances
+Precision: 100.00%
+R50: IF LeftW = 1 AND LeftD = 1 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R51: IF LeftW = 1 AND LeftD = 1 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R52: IF LeftW = 1 AND LeftD = 2 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R53: IF LeftW = 1 AND LeftD = 2 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R54: IF LeftW = 1 AND LeftD = 3 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R55: IF LeftW = 2 AND LeftD = 1 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R56: IF LeftW = 2 AND LeftD = 1 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R57: IF LeftW = 2 AND LeftD = 1 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R58: IF LeftW = 2 AND LeftD = 2 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R59: IF LeftW = 2 AND LeftD = 2 AND RightD = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R60: IF LeftW = 2 AND LeftD = 3 AND RightD = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R61: IF LeftW = 2 AND LeftD = 3 AND RightD = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R62: IF LeftW = 2 AND LeftD = 4 AND RightD = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R63: IF LeftW = 2 AND LeftD = 5 AND RightD = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R64: IF LeftW = 3 AND LeftD = 1 AND RightD = 4 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R65: IF LeftW = 3 AND LeftD = 1 AND RightD = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R66: IF LeftW = 3 AND LeftD = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R67: IF LeftW = 3 AND LeftD = 2 AND RightD = 4 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R68: IF LeftW = 3 AND LeftD = 3 AND RightD = 1 THEN L
+Coverage: 4 instances 0.80% of all instances
+Precision: 100.00%
+R69: IF LeftW = 3 AND LeftD = 4 AND RightD = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R70: IF LeftW = 3 AND LeftD = 4 AND RightD = 2 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R71: IF LeftW = 3 AND LeftD = 5 AND RightD = 1 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R72: IF LeftW = 3 AND LeftD = 5 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R73: IF LeftW = 3 AND LeftD = 5 AND RightD = 3 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R74: IF LeftW = 4 AND LeftD = 1 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R75: IF LeftW = 4 AND LeftD = 1 AND RightD = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R76: IF LeftW = 4 AND LeftD = 2 AND RightD = 1 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R77: IF LeftW = 4 AND LeftD = 3 AND RightD = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R78: IF LeftW = 4 AND LeftD = 3 AND RightD = 2 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R79: IF LeftW = 4 AND LeftD = 4 AND RightD = 1 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R80: IF LeftW = 4 AND LeftD = 4 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R81: IF LeftW = 4 AND LeftD = 4 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R82: IF LeftW = 4 AND LeftD = 5 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R83: IF LeftW = 4 AND LeftD = 5 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R84: IF LeftW = 4 AND LeftD = 5 AND RightD = 3 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R85: IF LeftW = 5 AND LeftD = 2 AND RightD = 1 THEN L
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R86: IF LeftW = 5 AND LeftD = 3 AND RightD = 1 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R87: IF LeftW = 5 AND LeftD = 3 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R88: IF LeftW = 5 AND LeftD = 4 AND RightD = 1 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R89: IF LeftW = 5 AND LeftD = 4 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R90: IF LeftW = 5 AND LeftD = 4 AND RightD = 3 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R91: IF LeftW = 1 AND RightW = 2 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R92: IF LeftW = 1 AND RightW = 2 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R93: IF LeftW = 1 AND RightW = 3 AND RightD = 2 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R94: IF LeftW = 1 AND RightW = 3 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R95: IF LeftW = 1 AND RightW = 3 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R96: IF LeftW = 1 AND RightW = 4 AND RightD = 2 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R97: IF LeftW = 1 AND RightW = 4 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R98: IF LeftW = 1 AND RightW = 4 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R99: IF LeftW = 1 AND RightW = 5 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R100: IF LeftW = 1 AND RightW = 5 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R101: IF LeftW = 1 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R102: IF LeftW = 2 AND RightW = 1 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R103: IF LeftW = 2 AND RightW = 3 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R104: IF LeftW = 2 AND RightW = 3 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R105: IF LeftW = 2 AND RightW = 4 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R106: IF LeftW = 2 AND RightW = 4 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R107: IF LeftW = 2 AND RightW = 4 AND RightD = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R108: IF LeftW = 2 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R109: IF LeftW = 3 AND RightW = 1 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R110: IF LeftW = 3 AND RightW = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R111: IF LeftW = 3 AND RightW = 4 AND RightD = 4 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R112: IF LeftW = 3 AND RightW = 4 AND RightD = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R113: IF LeftW = 3 AND RightW = 5 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R114: IF LeftW = 3 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R115: IF LeftW = 4 AND RightW = 1 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R116: IF LeftW = 4 AND RightW = 1 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R117: IF LeftW = 4 AND RightW = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R118: IF LeftW = 4 AND RightW = 3 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R119: IF LeftW = 5 AND RightW = 1 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R120: IF LeftW = 5 AND RightW = 1 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R121: IF LeftW = 5 AND RightW = 1 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R122: IF LeftW = 5 AND RightW = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R123: IF LeftW = 5 AND RightW = 2 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R124: IF LeftW = 5 AND RightW = 2 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R125: IF LeftW = 5 AND RightW = 3 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R126: IF LeftW = 5 AND RightW = 4 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R127: IF LeftD = 1 AND RightW = 2 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R128: IF LeftD = 1 AND RightW = 2 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R129: IF LeftD = 1 AND RightW = 2 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R130: IF LeftD = 1 AND RightW = 3 AND RightD = 2 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R131: IF LeftD = 1 AND RightW = 3 AND RightD = 3 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R132: IF LeftD = 1 AND RightW = 3 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R133: IF LeftD = 1 AND RightW = 4 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R134: IF LeftD = 1 AND RightW = 4 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R135: IF LeftD = 1 AND RightW = 4 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R136: IF LeftD = 1 AND RightW = 4 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R137: IF LeftD = 1 AND RightW = 5 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R138: IF LeftD = 1 AND RightW = 5 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R139: IF LeftD = 1 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R140: IF LeftD = 2 AND RightW = 1 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R141: IF LeftD = 2 AND RightW = 3 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R142: IF LeftD = 2 AND RightW = 3 AND RightD = 5 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R143: IF LeftD = 2 AND RightW = 4 AND RightD = 3 THEN R
+Coverage: 3 instances 0.60% of all instances
+Precision: 100.00%
+R144: IF LeftD = 2 AND RightW = 4 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R145: IF LeftD = 2 AND RightW = 4 AND RightD = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R146: IF LeftD = 2 AND RightW = 5 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R147: IF LeftD = 2 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R148: IF LeftD = 3 AND RightW = 1 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R149: IF LeftD = 3 AND RightW = 1 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R150: IF LeftD = 3 AND RightW = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R151: IF LeftD = 3 AND RightW = 2 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R152: IF LeftD = 3 AND RightW = 4 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R153: IF LeftD = 3 AND RightW = 4 AND RightD = 5 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R154: IF LeftD = 3 AND RightW = 5 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R155: IF LeftD = 3 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R156: IF LeftD = 4 AND RightW = 1 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R157: IF LeftD = 4 AND RightW = 1 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R158: IF LeftD = 4 AND RightW = 1 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R159: IF LeftD = 4 AND RightW = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R160: IF LeftD = 4 AND RightW = 3 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R161: IF LeftD = 5 AND RightW = 2 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R162: IF LeftD = 5 AND RightW = 2 AND RightD = 2 THEN L
+Coverage: 2 instances 0.40% of all instances
+Precision: 100.00%
+R163: IF LeftD = 5 AND RightW = 3 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R164: IF LeftD = 5 AND RightW = 4 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R165: IF LeftW = 1 AND LeftD = 1 AND RightW = 1 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R166: IF LeftW = 1 AND LeftD = 2 AND RightW = 2 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R167: IF LeftW = 1 AND LeftD = 3 AND RightW = 1 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R168: IF LeftW = 1 AND LeftD = 4 AND RightW = 1 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R169: IF LeftW = 1 AND LeftD = 4 AND RightW = 2 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R170: IF LeftW = 1 AND LeftD = 4 AND RightW = 4 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R171: IF LeftW = 1 AND LeftD = 5 AND RightW = 5 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R172: IF LeftW = 2 AND LeftD = 1 AND RightW = 1 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R173: IF LeftW = 2 AND LeftD = 1 AND RightW = 2 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R174: IF LeftW = 2 AND LeftD = 1 AND RightW = 2 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R175: IF LeftW = 2 AND LeftD = 2 AND RightW = 1 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R176: IF LeftW = 2 AND LeftD = 2 AND RightW = 2 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R177: IF LeftW = 2 AND LeftD = 2 AND RightW = 2 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R178: IF LeftW = 2 AND LeftD = 2 AND RightW = 3 AND RightD = 1 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R179: IF LeftW = 2 AND LeftD = 2 AND RightW = 3 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R180: IF LeftW = 2 AND LeftD = 2 AND RightW = 3 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R181: IF LeftW = 2 AND LeftD = 3 AND RightW = 2 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R182: IF LeftW = 2 AND LeftD = 3 AND RightW = 3 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R183: IF LeftW = 2 AND LeftD = 3 AND RightW = 3 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R184: IF LeftW = 2 AND LeftD = 4 AND RightW = 2 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R185: IF LeftW = 2 AND LeftD = 4 AND RightW = 2 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R186: IF LeftW = 2 AND LeftD = 4 AND RightW = 2 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R187: IF LeftW = 2 AND LeftD = 4 AND RightW = 2 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R188: IF LeftW = 2 AND LeftD = 4 AND RightW = 3 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R189: IF LeftW = 2 AND LeftD = 4 AND RightW = 3 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R190: IF LeftW = 2 AND LeftD = 4 AND RightW = 4 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R191: IF LeftW = 2 AND LeftD = 5 AND RightW = 2 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R192: IF LeftW = 2 AND LeftD = 5 AND RightW = 2 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R193: IF LeftW = 2 AND LeftD = 5 AND RightW = 2 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R194: IF LeftW = 2 AND LeftD = 5 AND RightW = 3 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R195: IF LeftW = 2 AND LeftD = 5 AND RightW = 3 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R196: IF LeftW = 2 AND LeftD = 5 AND RightW = 4 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R197: IF LeftW = 2 AND LeftD = 5 AND RightW = 5 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R198: IF LeftW = 3 AND LeftD = 1 AND RightW = 1 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R199: IF LeftW = 3 AND LeftD = 1 AND RightW = 2 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R200: IF LeftW = 3 AND LeftD = 1 AND RightW = 3 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R201: IF LeftW = 3 AND LeftD = 2 AND RightW = 2 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R202: IF LeftW = 3 AND LeftD = 2 AND RightW = 2 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R203: IF LeftW = 3 AND LeftD = 2 AND RightW = 2 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R204: IF LeftW = 3 AND LeftD = 2 AND RightW = 3 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R205: IF LeftW = 3 AND LeftD = 2 AND RightW = 4 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R206: IF LeftW = 3 AND LeftD = 3 AND RightW = 2 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R207: IF LeftW = 3 AND LeftD = 3 AND RightW = 2 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R208: IF LeftW = 3 AND LeftD = 3 AND RightW = 3 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R209: IF LeftW = 3 AND LeftD = 3 AND RightW = 3 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R210: IF LeftW = 3 AND LeftD = 3 AND RightW = 3 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R211: IF LeftW = 3 AND LeftD = 3 AND RightW = 3 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R212: IF LeftW = 3 AND LeftD = 3 AND RightW = 5 AND RightD = 2 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R213: IF LeftW = 3 AND LeftD = 4 AND RightW = 3 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R214: IF LeftW = 3 AND LeftD = 4 AND RightW = 3 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R215: IF LeftW = 3 AND LeftD = 4 AND RightW = 3 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R216: IF LeftW = 3 AND LeftD = 4 AND RightW = 4 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R217: IF LeftW = 3 AND LeftD = 5 AND RightW = 3 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R218: IF LeftW = 3 AND LeftD = 5 AND RightW = 3 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R219: IF LeftW = 4 AND LeftD = 1 AND RightW = 1 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R220: IF LeftW = 4 AND LeftD = 2 AND RightW = 2 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R221: IF LeftW = 4 AND LeftD = 2 AND RightW = 2 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R222: IF LeftW = 4 AND LeftD = 2 AND RightW = 2 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R223: IF LeftW = 4 AND LeftD = 2 AND RightW = 3 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R224: IF LeftW = 4 AND LeftD = 2 AND RightW = 3 AND RightD = 3 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R225: IF LeftW = 4 AND LeftD = 2 AND RightW = 4 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R226: IF LeftW = 4 AND LeftD = 3 AND RightW = 3 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R227: IF LeftW = 4 AND LeftD = 3 AND RightW = 3 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R228: IF LeftW = 4 AND LeftD = 3 AND RightW = 4 AND RightD = 3 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R229: IF LeftW = 4 AND LeftD = 4 AND RightW = 4 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R230: IF LeftW = 4 AND LeftD = 4 AND RightW = 4 AND RightD = 5 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R231: IF LeftW = 4 AND LeftD = 4 AND RightW = 5 AND RightD = 4 THEN R
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R232: IF LeftW = 4 AND LeftD = 5 AND RightW = 4 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R233: IF LeftW = 4 AND LeftD = 5 AND RightW = 4 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R234: IF LeftW = 4 AND LeftD = 5 AND RightW = 5 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R235: IF LeftW = 5 AND LeftD = 1 AND RightW = 1 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R236: IF LeftW = 5 AND LeftD = 1 AND RightW = 5 AND RightD = 1 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R237: IF LeftW = 5 AND LeftD = 2 AND RightW = 2 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R238: IF LeftW = 5 AND LeftD = 2 AND RightW = 2 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R239: IF LeftW = 5 AND LeftD = 2 AND RightW = 3 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R240: IF LeftW = 5 AND LeftD = 2 AND RightW = 3 AND RightD = 3 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R241: IF LeftW = 5 AND LeftD = 2 AND RightW = 4 AND RightD = 2 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R242: IF LeftW = 5 AND LeftD = 2 AND RightW = 5 AND RightD = 2 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R243: IF LeftW = 5 AND LeftD = 3 AND RightW = 3 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R244: IF LeftW = 5 AND LeftD = 4 AND RightW = 4 AND RightD = 4 THEN L
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R245: IF LeftW = 5 AND LeftD = 4 AND RightW = 4 AND RightD = 5 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+R246: IF LeftW = 5 AND LeftD = 4 AND RightW = 5 AND RightD = 4 THEN B
+Coverage: 1 instances 0.20% of all instances
+Precision: 100.00%
+Number of derived rules: 246
+Training time: 0:00:01.952693
+Covered instances: 500
+Accuracy: 0.72

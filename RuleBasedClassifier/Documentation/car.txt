@@ -1,0 +1,415 @@
+Name of dataset: car
+Number of training instances: 1381
+Number of test instances: 346
+R1: IF doors = 2 THEN unacc
+Coverage: 458 instances 33.16% of all instances
+Precision: 100.00%
+R2: IF lug_boot = low THEN unacc
+Coverage: 308 instances 22.30% of all instances
+Precision: 100.00%
+R3: IF buying = vhigh AND persons = small AND lug_boot = med THEN unacc
+Coverage: 24 instances 1.74% of all instances
+Precision: 100.00%
+R4: IF maint = 2 AND doors = more AND persons = small THEN unacc
+Coverage: 25 instances 1.81% of all instances
+Precision: 100.00%
+R5: IF buying = vhigh AND maint = 2 AND doors = more AND lug_boot = med THEN unacc
+Coverage: 5 instances 0.36% of all instances
+Precision: 100.00%
+R6: IF buying = vhigh AND maint = 2 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 4 instances 0.29% of all instances
+Precision: 100.00%
+R7: IF buying = high AND maint = 2 AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R8: IF buying = high AND maint = 4 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R9: IF buying = high AND maint = 4 AND doors = more AND persons = small AND lug_boot = med THEN unacc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R10: IF buying = high AND maint = 5more AND doors = 4 AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R11: IF buying = high AND maint = 5more AND doors = more AND persons = med AND lug_boot = high THEN unacc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R12: IF buying = high AND maint = 5more AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R13: IF buying = low AND maint = 2 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R14: IF buying = low AND maint = 2 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R15: IF buying = med AND maint = 2 AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R16: IF buying = med AND maint = 2 AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R17: IF buying = med AND maint = 2 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R18: IF buying = med AND maint = 3 AND doors = more AND persons = big AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R19: IF buying = med AND maint = 4 AND doors = more AND persons = big AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R20: IF buying = med AND maint = 5more AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R21: IF buying = med AND maint = 5more AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R22: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = big AND lug_boot = high THEN unacc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R23: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R24: IF buying = vhigh AND maint = 3 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R25: IF buying = vhigh AND maint = 3 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R26: IF buying = vhigh AND maint = 4 AND doors = more AND persons = big AND lug_boot = high THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R27: IF buying = vhigh AND maint = 5more AND doors = more AND persons = small AND lug_boot = high THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+Number of derived rules: 27
+Training time: 0:00:06.195424
+Covered instances: 869
+Accuracy: 0.6098265895953757
+
+(venv) C:\Users\nadzi\PycharmProjects\SEL>python ./Source/main.py medium
+Name of dataset: car
+Number of training instances: 1381
+Number of test instances: 346
+R1: IF doors = 2 THEN unacc
+Coverage: 457 instances 33.09% of all instances
+Precision: 100.00%
+R2: IF lug_boot = low THEN unacc
+Coverage: 302 instances 21.87% of all instances
+Precision: 100.00%
+R3: IF buying = vhigh AND persons = small AND lug_boot = med THEN unacc
+Coverage: 27 instances 1.96% of all instances
+Precision: 100.00%
+R4: IF maint = 2 AND doors = more AND persons = small THEN unacc
+Coverage: 23 instances 1.67% of all instances
+Precision: 100.00%
+R5: IF buying = vhigh AND maint = 2 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 8 instances 0.58% of all instances
+Precision: 100.00%
+R6: IF buying = high AND maint = 2 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R7: IF buying = high AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R8: IF buying = high AND maint = 4 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R9: IF buying = high AND maint = 5more AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R10: IF buying = low AND maint = 3 AND doors = 4 AND persons = big AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R11: IF buying = med AND maint = 3 AND doors = 4 AND persons = big AND lug_boot = med THEN good
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R12: IF buying = med AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R13: IF buying = med AND maint = 3 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R14: IF buying = med AND maint = 4 AND doors = 4 AND persons = small AND lug_boot = high THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R15: IF buying = med AND maint = 4 AND doors = 4 AND persons = small AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R16: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 4 instances 0.29% of all instances
+Precision: 100.00%
+R17: IF buying = vhigh AND maint = 4 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R18: IF buying = vhigh AND maint = 4 AND doors = 4 AND persons = small AND lug_boot = high THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R19: IF buying = vhigh AND maint = 5more AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+Number of derived rules: 19
+Training time: 0:00:06.251276
+Covered instances: 846
+Accuracy: 0.6271676300578035
+
+(venv) C:\Users\nadzi\PycharmProjects\SEL>python ./Source/main.py medium
+Name of dataset: car
+Number of training instances: 1381
+Number of test instances: 346
+R1: IF doors = 2 THEN unacc
+Coverage: 463 instances 33.53% of all instances
+Precision: 100.00%
+R2: IF lug_boot = low THEN unacc
+Coverage: 317 instances 22.95% of all instances
+Precision: 100.00%
+R3: IF buying = vhigh AND persons = small AND lug_boot = med THEN unacc
+Coverage: 26 instances 1.88% of all instances
+Precision: 100.00%
+R4: IF maint = 2 AND doors = more AND persons = small THEN unacc
+Coverage: 23 instances 1.67% of all instances
+Precision: 100.00%
+R5: IF buying = vhigh AND maint = 2 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 4 instances 0.29% of all instances
+Precision: 100.00%
+R6: IF buying = high AND maint = 2 AND doors = more AND persons = med AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R7: IF buying = high AND maint = 3 AND doors = 4 AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R8: IF buying = high AND maint = 3 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R9: IF buying = high AND maint = 4 AND doors = more AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R10: IF buying = high AND maint = 5more AND doors = more AND persons = small AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R11: IF buying = low AND maint = 3 AND doors = more AND persons = big AND lug_boot = high THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R12: IF buying = low AND maint = 4 AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R13: IF buying = low AND maint = 5more AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R14: IF buying = low AND maint = 5more AND doors = 4 AND persons = small AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R15: IF buying = med AND maint = 2 AND doors = 4 AND persons = big AND lug_boot = med THEN good
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R16: IF buying = med AND maint = 3 AND doors = more AND persons = med AND lug_boot = med THEN good
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R17: IF buying = med AND maint = 3 AND doors = more AND persons = small AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R18: IF buying = med AND maint = 4 AND doors = 4 AND persons = big AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R19: IF buying = med AND maint = 4 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R20: IF buying = med AND maint = 5more AND doors = 4 AND persons = big AND lug_boot = high THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R21: IF buying = med AND maint = 5more AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R22: IF buying = med AND maint = 5more AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R23: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R24: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R25: IF buying = vhigh AND maint = 3 AND doors = more AND persons = med AND lug_boot = high THEN unacc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R26: IF buying = vhigh AND maint = 5more AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R27: IF buying = vhigh AND maint = 5more AND doors = more AND persons = big AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+Number of derived rules: 27
+Training time: 0:00:06.437777
+Covered instances: 873
+Accuracy: 0.5953757225433526
+
+(venv) C:\Users\nadzi\PycharmProjects\SEL>python ./Source/main.py medium
+Name of dataset: car
+Number of training instances: 1381
+Number of test instances: 346
+R1: IF doors = 2 THEN unacc
+Coverage: 463 instances 33.53% of all instances
+Precision: 100.00%
+R2: IF lug_boot = low THEN unacc
+Coverage: 306 instances 22.16% of all instances
+Precision: 100.00%
+R3: IF buying = high AND persons = small AND lug_boot = med THEN unacc
+Coverage: 24 instances 1.74% of all instances
+Precision: 100.00%
+R4: IF buying = vhigh AND persons = small AND lug_boot = med THEN unacc
+Coverage: 30 instances 2.17% of all instances
+Precision: 100.00%
+R5: IF maint = 2 AND doors = more AND persons = small THEN unacc
+Coverage: 19 instances 1.38% of all instances
+Precision: 100.00%
+R6: IF buying = high AND maint = 2 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 6 instances 0.43% of all instances
+Precision: 100.00%
+R7: IF buying = vhigh AND maint = 2 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 8 instances 0.58% of all instances
+Precision: 100.00%
+R8: IF buying = med AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 12 instances 0.87% of all instances
+Precision: 100.00%
+R9: IF buying = med AND doors = 4 AND persons = small AND lug_boot = high THEN acc
+Coverage: 12 instances 0.87% of all instances
+Precision: 100.00%
+R10: IF buying = med AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 12 instances 0.87% of all instances
+Precision: 100.00%
+R11: IF buying = high AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R12: IF buying = med AND maint = 2 AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R13: IF buying = med AND maint = 2 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R14: IF buying = med AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R15: IF buying = med AND maint = 3 AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R16: IF buying = med AND maint = 3 AND doors = more AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R17: IF buying = med AND maint = 4 AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R18: IF buying = med AND maint = 4 AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R19: IF buying = med AND maint = 4 AND doors = more AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R20: IF buying = med AND maint = 5more AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R21: IF buying = med AND maint = 5more AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R22: IF buying = med AND maint = 5more AND doors = more AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R23: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 4 instances 0.29% of all instances
+Precision: 100.00%
+Number of derived rules: 23
+Training time: 0:00:06.745024
+Covered instances: 932
+Accuracy: 0.5722543352601156
+
+(venv) C:\Users\nadzi\PycharmProjects\SEL>python ./Source/main.py medium
+Name of dataset: car
+Number of training instances: 1381
+Number of test instances: 346
+R1: IF doors = 2 THEN unacc
+Coverage: 456 instances 33.02% of all instances
+Precision: 100.00%
+R2: IF lug_boot = low THEN unacc
+Coverage: 302 instances 21.87% of all instances
+Precision: 100.00%
+R3: IF buying = vhigh AND persons = small AND lug_boot = med THEN unacc
+Coverage: 26 instances 1.88% of all instances
+Precision: 100.00%
+R4: IF maint = 2 AND doors = more AND persons = small THEN unacc
+Coverage: 23 instances 1.67% of all instances
+Precision: 100.00%
+R5: IF buying = vhigh AND maint = 4 AND doors = 4 AND persons = small THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R6: IF buying = vhigh AND maint = 2 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 5 instances 0.36% of all instances
+Precision: 100.00%
+R7: IF buying = high AND maint = 2 AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R8: IF buying = high AND maint = 2 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R9: IF buying = high AND maint = 4 AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R10: IF buying = high AND maint = 5more AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R11: IF buying = high AND maint = 5more AND doors = 4 AND persons = small AND lug_boot = med THEN unacc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R12: IF buying = low AND maint = 2 AND doors = 4 AND persons = big AND lug_boot = high THEN vgood
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R13: IF buying = low AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R14: IF buying = low AND maint = 3 AND doors = more AND persons = small AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R15: IF buying = low AND maint = 4 AND doors = more AND persons = big AND lug_boot = med THEN good
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R16: IF buying = low AND maint = 4 AND doors = more AND persons = small AND lug_boot = high THEN good
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R17: IF buying = med AND maint = 2 AND doors = 4 AND persons = big AND lug_boot = high THEN vgood
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R18: IF buying = med AND maint = 2 AND doors = more AND persons = big AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R19: IF buying = med AND maint = 2 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R20: IF buying = med AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R21: IF buying = med AND maint = 4 AND doors = 4 AND persons = med AND lug_boot = med THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R22: IF buying = med AND maint = 4 AND doors = more AND persons = small AND lug_boot = high THEN acc
+Coverage: 3 instances 0.22% of all instances
+Precision: 100.00%
+R23: IF buying = med AND maint = 5more AND doors = more AND persons = med AND lug_boot = med THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R24: IF buying = vhigh AND maint = 2 AND doors = more AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R25: IF buying = vhigh AND maint = 3 AND doors = 4 AND persons = med AND lug_boot = med THEN unacc
+Coverage: 4 instances 0.29% of all instances
+Precision: 100.00%
+R26: IF buying = vhigh AND maint = 3 AND doors = more AND persons = big AND lug_boot = med THEN unacc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+R27: IF buying = vhigh AND maint = 4 AND doors = 4 AND persons = big AND lug_boot = med THEN acc
+Coverage: 1 instances 0.07% of all instances
+Precision: 100.00%
+R28: IF buying = vhigh AND maint = 4 AND doors = 4 AND persons = med AND lug_boot = high THEN acc
+Coverage: 2 instances 0.14% of all instances
+Precision: 100.00%
+Number of derived rules: 28
+Training time: 0:00:06.415849
+Covered instances: 863
+Accuracy: 0.6416184971098265
